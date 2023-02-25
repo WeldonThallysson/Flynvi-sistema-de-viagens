@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+.Conteiner__PrincipalReserva{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.Titulo__PrincipalReserva{
+    font-family: 'Golos Text', sans-serif; 
+    color: #FFF;
+
+}
+.Titulo__Reservas{
+    font-family: 'Golos Text', sans-serif; 
+    text-align: center;
+    font-size: 1.2em;
+    width: 20%;
+}
+
+.Conteiner__Reservas{
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Imagem__Reservas{
+    width: 10%;
+    height: 100px;
+    border-radius: 4px;
+}
+
+.Btn__Reservas{
+    border: none;
+    border-radius: 3px;
+    background: #FFF;
+    font-size: 12px;
+}
+
+.Btn__SReservas{
+    border: none;
+    border-radius: 3px;
+    background: #0b0b13;
+    padding: 15px;
+    margin-left: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: #FFF;
+    font-size: 15px;
+
+}
+.Btn__SReservas:hover{
+    transition: all 0.8s;
+    background-color: #000000f1;
+}
+.Rodapé__Reservas{
+    border: 0;
+    display: flex;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 10px;
+   
+   
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+
+}
+
+.input{
+    border: 3px solid #EEE;
+    border-radius: 4px;
+    color: #242424;
+    padding: 5px;
+    width: 45px;
+
+}
+
+.botao__adicional{
+    background: none;
+    border: none;
+
+}
+
+
+@media screen and (min-width: 319px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 45px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .6em;
+        width: 20%;
+    }
+    .input{
+        border: 3px solid #EEE;
+        border-radius: 4px;
+        color: #242424;
+        padding: 5px;
+        width: 15px;
+    
+    }
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media screen and (min-width: 375px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 55px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .6em;
+        width: 20%;
+    }
+    
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media screen and (min-width: 425px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 85px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .7em;
+        width: 20%;
+    }
+    
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
+@media screen and (min-width: 767px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 105px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .7em;
+        width: 20%;
+    }
+    
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media screen and (min-width: 1023px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 125px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .9em;
+        width: 20%;
+    }
+    
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
+@media screen and (min-width: 1359px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 145px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .9em;
+        width: 20%;
+    }
+    
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}@media screen and (min-width: 1367px) {
+    .Imagem__Reservas{
+        width: 25%;
+        height: 165px;
+        border-radius: 4px;
+    }
+    .Titulo__Reservas{
+        margin: 2px;
+        font-family: 'Golos Text', sans-serif; 
+        text-align: center;
+        font-size: .9em;
+        width: 20%;
+    }
+    
+.Conteiner__Reservas{
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    background: #FFF;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+}

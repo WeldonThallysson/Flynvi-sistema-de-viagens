@@ -1,0 +1,86 @@
+{
+    "stock": [
+      {
+        "id": 1,
+        "amount": 10
+      },
+      {
+        "id": 4,
+        "amount": 5
+      },
+      {
+        "id": 22,
+        "amount": 3
+      },
+      {
+        "id":3,
+        "amount": 5
+      },
+      {
+        "id": 5,
+        "amount": 6
+      },
+      {
+        "id":6,
+        "amount": 2
+      },
+      {
+        "id":7,
+        "amount": 5
+      },
+      {
+        "id":8,
+        "amount": 3
+      }
+    ],
+    "trips": [
+      {
+        "id": 1,
+        "title": "Viagem Maceió 7 noites",
+        "status": true,
+        "image": "https://sujeitoprogramador.com/wp-content/uploads/2019/12/maceio.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Viagem Caribe 5 noites",
+        "status": true,
+        "image": "https://sujeitoprogramador.com/wp-content/uploads/2019/12/caribe.jpg"
+      },
+      {
+        "id": 22,
+        "title": "Viagem Fernando de Noronha 10 noites",
+        "status": true,
+        "image": "https://sujeitoprogramador.com/wp-content/uploads/2019/12/fernand-noronha.jpg"
+      },
+
+      {
+        "id": 3,
+        "title": "Beto Carrero World",
+        "status": true,
+        "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2018/01/betocarrero.jpg?quality=70&strip=info&w=1024&resize=1200,800"
+      }, 
+      {
+        "id": 5,
+        "title": "Viagem Porto de Galinhas 3 dias",
+        "status": true,
+        "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2011/09/GettyImages-697769530.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Viagem ao Ocean Palace Resort 7 dias",
+        "status": true,
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/f2/69/4b/ocean-palace-beach-resort.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Viagem a Praia de Jampa (Paraíba)",
+        "status": true,
+        "image": "https://oitravels228219332.files.wordpress.com/2021/05/orla-joao-pessoa.jpg?w=1024"
+      },   {
+        "id": 8,
+        "title": "Viagem a Praia de Balneário Camburiu",
+        "status": true,
+        "image": "https://a.cdn-hotels.com/gdcs/production1/d453/51ba19a2-a05f-462d-8edf-2e8f1b2662d5.jpg"
+      }
+    ]
+  }

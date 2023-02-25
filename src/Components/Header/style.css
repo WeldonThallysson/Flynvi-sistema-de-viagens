@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+.conteiner__Cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 ;
+    padding: 10px 60px;
+    background-color: transparent;
+ 
+
+
+}
+.conteiner__Reserva{
+    display: flex;
+    flex-direction:column;
+    text-align: right;
+    margin-right: 10px;
+}
+.btn__Reserva{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.logo__Cabeçalho{
+ 
+    max-width: 80px;
+    max-height: 80px;
+}
+.Titulo__Cabeçalho{
+    color: #FFF;
+    margin-left:32px;
+    font-size: 1.8em;
+    line-height: 2%;
+    font-family: 'Golos Text', sans-serif;
+    
+}
+.titulo__Reserva{
+    color: #fff;
+    display: block;
+    font-size: 1.4em;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.descricao__Reserva{
+    color: #ddd;
+    font-size: 1em;
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+@media screen and (min-width: 320px) {
+    .conteiner__Cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 ;
+        padding: 10px 15px;
+        background-color: transparent;
+     
+    
+    
+    }
+    .conteiner__Reserva{
+        display: flex;
+        flex-direction:column;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+    .logo__Cabeçalho{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .Titulo__Cabeçalho{
+        color: #FFF;
+        margin-left:12px;
+        font-size: 1.1em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #fff;
+        display: block;
+        font-size: .8em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .8em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .conteiner__Cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 ;
+        padding: 10px 15px;
+        background-color: transparent;
+     
+    
+    
+    }
+    .conteiner__Reserva{
+        display: flex;
+        flex-direction:column;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+    .logo__Cabeçalho{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .Titulo__Cabeçalho{
+        color: #FFF;
+        margin-left:12px;
+        font-size: 1.1em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #fff;
+        display: block;
+        font-size: .8em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .8em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .conteiner__Cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 ;
+        padding: 10px 15px;
+        background-color: transparent;
+     
+    
+    
+    }
+    .conteiner__Reserva{
+        display: flex;
+        flex-direction:column;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .logo__Cabeçalho{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .Titulo__Cabeçalho{
+        color: #FFF;
+        margin-left:12px;
+        font-size: 1.2em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width: 568px) {
+  
+ 
+    .logo__Cabeçalho{
+        max-width: 60px;
+        max-height: 60px;
+    }
+    .Titulo__Cabeçalho{
+        color: #f7f7f7;
+        margin-left:12px;
+        font-size: 1.8em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width:767px) {
+ 
+    .logo__Cabeçalho{
+        max-width: 60px;
+        max-height: 60px;
+    }
+    .Titulo__Cabeçalho{
+        color: #ffffff;
+        margin-left:12px;
+        font-size: 1.6em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+
+
+@media screen and (min-width:1023px) {
+ 
+    .logo__Cabeçalho{
+        max-width: 65px;
+        max-height: 65px;
+    }
+    .Titulo__Cabeçalho{
+        color: #ffffff;
+        margin-left:12px;
+        font-size: 1.6em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1.2em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width:1359px) {
+ 
+    .logo__Cabeçalho{
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .Titulo__Cabeçalho{
+        color: #ffffff;
+        margin-left:15px;
+        font-size: 1.8em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1.4em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+@media screen and (min-width:1365px) {
+ 
+    .logo__Cabeçalho{
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .Titulo__Cabeçalho{
+        color: #ffffff;
+        margin-left:15px;
+        font-size: 1.8em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1.4em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width:1439px) {
+    .conteiner__Cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 ;
+        padding: 10px 25px;
+        background-color: transparent;
+     
+    
+    
+    }
+    .conteiner__Reserva{
+        display: flex;
+        flex-direction:column;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+   
+    .logo__Cabeçalho{
+        max-width:70px;
+        max-height: 70px;
+    }
+    .Titulo__Cabeçalho{
+        color: #ffffff;
+        margin-left:15px;
+        font-size: 1.8em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1.4em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
+@media screen and (min-width:1679px) {
+    .conteiner__Cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 ;
+        padding: 10px 35px;
+        background-color: transparent;
+     
+    
+    
+    }
+    .conteiner__Reserva{
+        display: flex;
+        flex-direction:column;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+    .logo__Cabeçalho{
+        max-width:100px;
+        max-height: 100px;
+    }
+    .Titulo__Cabeçalho{
+        color: #ffffff;
+        margin-left:15px;
+        font-size: 1.8em;
+        line-height: 2%;
+        font-family: 'Golos Text', sans-serif;
+        
+    }
+    .titulo__Reserva{
+        color: #ffffff;
+        display: block;
+        font-size: 1.4em;
+        font-family: 'Golos Text', sans-serif;
+    }
+    
+    .descricao__Reserva{
+        color: #ddd;
+        font-size: .9em;
+        font-family: 'Golos Text', sans-serif;
+    
+    }
+}
+
